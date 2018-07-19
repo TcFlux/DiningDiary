@@ -1,0 +1,25 @@
+{
+  "name": "diningdiary",
+  "version": "1.0.0",
+  "description": "Track your restaurants and the dishes you try!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TcFlux/DiningDiary.git"
+  },
+  "author": "Tyler Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TcFlux/DiningDiary/issues"
+  },
+  "homepage": "https://github.com/TcFlux/DiningDiary#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}
