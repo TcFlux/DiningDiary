@@ -13,6 +13,7 @@ How many times have you been to a restaurant you've been before and completely f
         * type of restaurant 
         * add a personal review or description (maybe have sections? i.e. service, environment, facilities)
       * Maybe integrate with yelp or gmaps and have an autocomplete functionality
+      
   2. __Be able to add dishes to the restaurant__
       * Be able to input:
         * name
