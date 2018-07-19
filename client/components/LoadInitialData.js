@@ -12,6 +12,12 @@ export class LoadInitialData extends Component {
       error: false
     }
   }
+  render() {
+    const { loaded, error } = this.state;
+    return (
+      <Main />
+    )
+  }
 }
 
 export default withRouter(connect(null, null)(LoadInitialData));
