@@ -106,7 +106,31 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Main = function Main() {\n\n  return _react2.default.createElement(\n    'div',\n    { id: 'main' },\n    _react2.default.createElement('div', null)\n  );\n};\n\nexports.default = Main;\n\n//# sourceURL=webpack:///./client/components/Main.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Routes = __webpack_require__(/*! ./Routes */ \"./client/components/Routes.js\");\n\nvar _Routes2 = _interopRequireDefault(_Routes);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Main = function Main() {\n\n  return _react2.default.createElement(\n    'div',\n    { id: 'main' },\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(_Routes2.default, null)\n    )\n  );\n};\n\nexports.default = Main;\n\n//# sourceURL=webpack:///./client/components/Main.js?");
+
+/***/ }),
+
+/***/ "./client/components/Routes.js":
+/*!*************************************!*\
+  !*** ./client/components/Routes.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nvar _Welcome = __webpack_require__(/*! ./Welcome */ \"./client/components/Welcome.js\");\n\nvar _Welcome2 = _interopRequireDefault(_Welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Routes = function Routes() {\n  return _react2.default.createElement(\n    _reactRouterDom.Switch,\n    null,\n    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Welcome2.default })\n  );\n};\n\nexports.default = Routes;\n\n//# sourceURL=webpack:///./client/components/Routes.js?");
+
+/***/ }),
+
+/***/ "./client/components/Welcome.js":
+/*!**************************************!*\
+  !*** ./client/components/Welcome.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Welcome = function Welcome() {\n  return _react2.default.createElement(\n    'h1',\n    null,\n    'This is the landing page!!!'\n  );\n};\n\nexports.default = Welcome;\n\n//# sourceURL=webpack:///./client/components/Welcome.js?");
 
 /***/ }),
 
